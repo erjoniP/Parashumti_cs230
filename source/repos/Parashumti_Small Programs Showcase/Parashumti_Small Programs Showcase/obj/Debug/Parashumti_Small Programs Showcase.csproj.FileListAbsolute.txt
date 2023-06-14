@@ -1,0 +1,14 @@
+C:\Users\erjon\source\repos\Parashumti_Small Programs Showcase\Parashumti_Small Programs Showcase\bin\Debug\Parashumti_Small Programs Showcase.exe.config
+C:\Users\erjon\source\repos\Parashumti_Small Programs Showcase\Parashumti_Small Programs Showcase\bin\Debug\Parashumti_Small Programs Showcase.exe
+C:\Users\erjon\source\repos\Parashumti_Small Programs Showcase\Parashumti_Small Programs Showcase\bin\Debug\Parashumti_Small Programs Showcase.pdb
+C:\Users\erjon\source\repos\Parashumti_Small Programs Showcase\Parashumti_Small Programs Showcase\obj\Debug\Parashumti_Small Programs Showcase.csproj.AssemblyReference.cache
+C:\Users\erjon\source\repos\Parashumti_Small Programs Showcase\Parashumti_Small Programs Showcase\obj\Debug\Parashumti_Small Programs Showcase.csproj.SuggestedBindingRedirects.cache
+C:\Users\erjon\source\repos\Parashumti_Small Programs Showcase\Parashumti_Small Programs Showcase\obj\Debug\Parashumti_Small_Programs_Showcase.Form1.resources
+C:\Users\erjon\source\repos\Parashumti_Small Programs Showcase\Parashumti_Small Programs Showcase\obj\Debug\Parashumti_Small_Programs_Showcase.Properties.Resources.resources
+C:\Users\erjon\source\repos\Parashumti_Small Programs Showcase\Parashumti_Small Programs Showcase\obj\Debug\Parashumti_Small Programs Showcase.csproj.GenerateResource.cache
+C:\Users\erjon\source\repos\Parashumti_Small Programs Showcase\Parashumti_Small Programs Showcase\obj\Debug\Parashumti_Small Programs Showcase.csproj.CoreCompileInputs.cache
+C:\Users\erjon\source\repos\Parashumti_Small Programs Showcase\Parashumti_Small Programs Showcase\obj\Debug\Parashumti_Small Programs Showcase.exe
+C:\Users\erjon\source\repos\Parashumti_Small Programs Showcase\Parashumti_Small Programs Showcase\obj\Debug\Parashumti_Small Programs Showcase.pdb
+C:\Users\erjon\source\repos\Parashumti_Small Programs Showcase\Parashumti_Small Programs Showcase\obj\Debug\Parashumti_Small_Programs_Showcase.FBMI.resources
+C:\Users\erjon\source\repos\Parashumti_Small Programs Showcase\Parashumti_Small Programs Showcase\obj\Debug\Parashumti_Small_Programs_Showcase.PassGenerator.resources
+C:\Users\erjon\source\repos\Parashumti_Small Programs Showcase\Parashumti_Small Programs Showcase\obj\Debug\Parashumti_Small_Programs_Showcase.WordCount.resources
