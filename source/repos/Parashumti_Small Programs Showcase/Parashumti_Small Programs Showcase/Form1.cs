@@ -40,6 +40,7 @@ namespace Parashumti_Small_Programs_Showcase
             miBMICalc.Click += MiBMICalc_Click;
             miPassGenerator.Click += MiPassGenerator_Click;
             miWordCount.Click += MiWordCount_Click;
+            miExit.Click += MiExit_Click
 
         }
 
@@ -65,6 +66,11 @@ namespace Parashumti_Small_Programs_Showcase
         private void MiAbout_Click(object sender, EventArgs e)
         {
             MessageBox.Show("'Small Programs Showcase' by Erjon Parashumti for CPSC 23000 Summer 2023");
+        }
+        
+        private void MiExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit()
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
