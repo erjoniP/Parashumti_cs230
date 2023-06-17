@@ -54,9 +54,11 @@ namespace Parashumti_Small_Programs_Showcase
         {
             try
             {
+                \\this part calculates the bmi based on the users input
                 int weight = int.Parse(txtWeight.Text);
                 int heigh = int.Parse(txtHeight.Text);
-
+                
+                \\this section converts the units from inch to meters and from pounds to kg
                 double height = Convert.ToDouble(txtHeight.Text);
                 height = height * 0.0254;
                 double mass = Convert.ToDouble(txtWeight.Text);
