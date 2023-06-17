@@ -15,6 +15,7 @@ namespace Parashumti_Small_Programs_Showcase
         private MenuStrip mainMenu;
         public Form1()
         {
+            //creates a main menu and adds all the functions to the strip menu
             InitializeComponent();
             mainMenu = new MenuStrip();
             this.MainMenuStrip = mainMenu;
@@ -44,6 +45,7 @@ namespace Parashumti_Small_Programs_Showcase
 
         }
 
+        //opens a window based on the function selected by the user
         private void MiWordCount_Click(object sender, EventArgs e)
         {
             WordCount wordCount = new WordCount();
