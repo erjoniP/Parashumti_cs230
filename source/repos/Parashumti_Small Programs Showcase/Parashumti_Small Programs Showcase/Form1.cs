@@ -40,7 +40,7 @@ namespace Parashumti_Small_Programs_Showcase
             miBMICalc.Click += MiBMICalc_Click;
             miPassGenerator.Click += MiPassGenerator_Click;
             miWordCount.Click += MiWordCount_Click;
-            miExit.Click += MiExit_Click
+            miExit.Click += MiExit_Click;
 
         }
 
@@ -70,7 +70,7 @@ namespace Parashumti_Small_Programs_Showcase
         
         private void MiExit_Click(object sender, EventArgs e)
         {
-            Application.Exit()
+            Application.Exit();
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
