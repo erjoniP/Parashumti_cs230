@@ -1,0 +1,16 @@
+﻿@page
+@model Parashumti_hw5_RazorPagesAndAzure.Models.PersonModel
+@{
+    ViewData["Title"] = "Booking";
+}
+
+<h1 class="text-white" style="font-size: 24px; margin-bottom: 26px">Appointment Booking</h1>
+<h1 class="text-white" style="font-size: 18px; margin-bottom: 26px">Use the form below to book an appointment for a free consultation.</h1>
+<form method="POST">
+    <input type="text" asp-for="@Model.FirstName" placeholder="First Name" />
+    <input type="text" asp-for="@Model.LastName" placeholder="Last Name" />
+    <input type="text" asp-for="@Model.Age" placeholder="Age" />
+    <input type="text" asp-for="@Model.Email" placeholder="Email" />
+    <input type="text" asp-for="@Model.PhoneNumber" placeholder="Phone Number" />
+    <button type="submit">Submit</button>
+</form>

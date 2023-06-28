@@ -1,0 +1,59 @@
+﻿@page
+@model Parashumti_hw5_RazorPagesAndAzure.Pages.Booking.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>PersonModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4 text-white">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="PersonModel.FirstName" class="control-label"></label>
+                <input asp-for="PersonModel.FirstName" class="form-control" />
+                <span asp-validation-for="PersonModel.FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PersonModel.LastName" class="control-label"></label>
+                <input asp-for="PersonModel.LastName" class="form-control" />
+                <span asp-validation-for="PersonModel.LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PersonModel.Age" class="control-label"></label>
+                <input asp-for="PersonModel.Age" class="form-control" />
+                <span asp-validation-for="PersonModel.Age" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PersonModel.Email" class="control-label"></label>
+                <input asp-for="PersonModel.Email" class="form-control" />
+                <span asp-validation-for="PersonModel.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PersonModel.PhoneNumber" class="control-label"></label>
+                <input asp-for="PersonModel.PhoneNumber" class="form-control" />
+                <span asp-validation-for="PersonModel.PhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="margin-bottom: 20px;">
+                <label asp-for="PersonModel.Date" class="control-label"></label>
+                <input asp-for="PersonModel.Date" class="form-control" />
+                <span asp-validation-for="PersonModel.Date" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="margin-bottom: 14px;">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
