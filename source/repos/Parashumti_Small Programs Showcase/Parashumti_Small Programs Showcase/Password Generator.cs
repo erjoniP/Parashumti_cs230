@@ -20,6 +20,7 @@ namespace Parashumti_Small_Programs_Showcase
 
         private void btnBrowse_Click(object sender, EventArgs e)
         {
+            //opens window explorer asking the user to select a file to use for generating passwords 
             OpenFileDialog dlgBrowse = new OpenFileDialog();
             dlgBrowse.InitialDirectory = "c:\\temp";
             dlgBrowse.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
@@ -67,7 +68,7 @@ namespace Parashumti_Small_Programs_Showcase
 
                     int nu = int.Parse(txtpassNum.Text);
                     int num = Convert.ToInt32(txtpassNum.Text);
-
+                    //clears the list so that every time we click generate there is new passwords
                     lisPass.Items.Clear();
                     
                     //gets random words from the list and replaces the letters as required
@@ -96,6 +97,7 @@ namespace Parashumti_Small_Programs_Showcase
                     }
                     
                 }
+                //error handling
                 else
                 {
                     MessageBox.Show("The file does no exist.");

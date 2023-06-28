@@ -52,18 +52,21 @@ namespace Parashumti_Small_Programs_Showcase
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
+            //this part calculates the bmi based on the users input
             try
             {
                 int weight = int.Parse(txtWeight.Text);
                 int heigh = int.Parse(txtHeight.Text);
-
+                
+                //this section converts the units from inch to meters and from pounds to kg
                 double height = Convert.ToDouble(txtHeight.Text);
                 height = height * 0.0254;
                 double mass = Convert.ToDouble(txtWeight.Text);
                 mass = mass / 2.205;
                 double bmi = mass / (height * height);
                 rtBmi.Text = bmi.ToString("F2");
-
+                
+                //this part gives out the status based on the calculated bmi score
                 if (bmi < 18.5)
                 {
                     rtStatus.Text = "Underweight";

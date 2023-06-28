@@ -15,6 +15,7 @@ namespace Parashumti_Small_Programs_Showcase
         private MenuStrip mainMenu;
         public Form1()
         {
+            //creates a main menu and adds all the functions to the strip menu
             InitializeComponent();
             mainMenu = new MenuStrip();
             this.MainMenuStrip = mainMenu;
@@ -40,9 +41,11 @@ namespace Parashumti_Small_Programs_Showcase
             miBMICalc.Click += MiBMICalc_Click;
             miPassGenerator.Click += MiPassGenerator_Click;
             miWordCount.Click += MiWordCount_Click;
+            miExit.Click += MiExit_Click;
 
         }
 
+        //opens a window based on the function selected by the user
         private void MiWordCount_Click(object sender, EventArgs e)
         {
             WordCount wordCount = new WordCount();
@@ -65,6 +68,11 @@ namespace Parashumti_Small_Programs_Showcase
         private void MiAbout_Click(object sender, EventArgs e)
         {
             MessageBox.Show("'Small Programs Showcase' by Erjon Parashumti for CPSC 23000 Summer 2023");
+        }
+        
+        private void MiExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
